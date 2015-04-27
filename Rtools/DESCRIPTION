@@ -1,0 +1,18 @@
+Package: Rtools
+Version: 3.2.2
+Date: 2010-03-10
+Title: Randy's Toolbox of Useful Functions
+Author: Randy Johnson <rjohnson@ncifcrf.gov>
+Maintainer: Randy Johnson <rjohnson@ncifcrf.gov>
+Depends: R (>= 1.9.1)
+Suggests: Hmisc
+Description: The package contains tools Deemed Useful by Randy
+License: Copyright (2010) SAIC-Frederick, Inc. Funded by the Intramural Research Program, of the NIH, National Cancer Institute, Center for Cancer Research under NCI Contract NO1-CO-12400.
+	This program is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License (version 2 or later) for more details.

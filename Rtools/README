@@ -1,0 +1,59 @@
+# Wish list:
+# update MHadd.power() to include prevalence and relative risk as in CaTS
+# update dca.power() to use Fisher's z' transformation as in MHadd.power()
+# add some examples to dca.power()
+
+version 3.2.2
+# changed odds ratio in MHadd.power() to change per allele rather than change from 0 to 2 alleles
+
+version 3.2.1
+# substantial speed increase for MHadd.power()
+
+# version 3.2.0
+# Added MHadd.power() with print method
+# Removed several functions that did the same thing as reshape()
+# Removed to.phase()
+
+# version 3.1.3
+# Added update.data.frame() method for George
+
+# version 3.1.2
+# Updated dca.power() to center OR's around 1 for multi-category mode
+
+# version 3.1.1
+# Updated dca.power() to handle codominant model
+# Made a slight clarification to the documentation of cph.power()
+
+# version 3.1.0
+# added dca.power()
+
+# version 3.0.1
+# fixed small bug in cph.power
+# added one.sided alternative to power.cont.tab
+
+# version 3.0.0
+# added cph.power
+
+# version 2.0.3
+# snphwe dropped (moved to hwde package)
+# added an equal.length option to pround 
+
+# version 2.0.2
+# tall2wide debugged and completed, now works very well (fast, and scales
+#  well to large data sets)
+# Moving lgd.convert/lgd.xpose to deprecated (defunct?) status
+
+# version 2.0.1
+# added tall2wide, replacement candidate for lgd.convert/lgd.xpose
+
+# version 2.0.0
+# added the 2004 MALD map data set
+# merged convert, smcloud, and snphwe with Rtools
+
+# version 1.1.1
+# added f.disease to exported functions list
+# fixed bug in polr.power
+
+# version 1.1.0
+# added polr.power
+# removed lmer.update, r2, and vioplot
