@@ -1,5 +1,6 @@
 export(choose.seed, cph.power, dca.power, dup.check, MHadd.power, percentile,
-       pround, power.cont.tab, polr.power, p.disease, smooth.cloud)
+       pround, power.cont.tab, polr.power, p.disease, smooth.cloud,
+       install.all)
 
 S3method(update, data.frame)
 S3method(print, MHadd.power)
