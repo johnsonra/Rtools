@@ -16,7 +16,7 @@ install.all <- function(repos = "http://watson.nci.nih.gov/cran_mirror/")
                     'Epi', 'longpower', 'gap', 'VGAM', 'wordcloud',
                     'XML', 'LEAPFrOG', 'DirichletReg', 'pwr', 'WriteXLS', 'meta',
                     'sqldf', 'doBy', 'devtools', 'pbkrtest', 'lpSolve', 'diptest',
-                    'mclust', 'missForest')
+                    'mclust', 'missForest', 'magrittr')
 
     install.packages(to.install, repos = repos, dependencies = TRUE)
 
